@@ -5,6 +5,6 @@
 3) a태그 3개 완료
 4) Table 완료
 5) list 완료
-6) 애매함
-7) 애매함
-8) id랑 태그 완료 (클래스 미완)
+6) 완료 (navbar, table, list-group, card)
+7) 완료 (border, flexbox, background, shadow, opacity, text center)
+8) 완료
