@@ -1,0 +1,33 @@
+#profile_img {
+    height: 400px;
+}
+
+table {
+    /* width: 50% !important; */
+}
+
+a {
+    color: rgb(4, 135, 250);
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.1rem;
+    color: rgb(255, 0, 0);
+}
+
+a:visited {
+    color: orchid;
+}
+
+#hobby {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    width: 50% !important;
+
+}
+
+.hobbies {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}

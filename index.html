@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container mt-2">
+        <!-- <div class="d-flex"> -->
+        <!-- <div class="flex-grow-1 bg-light rounded-2 p-2 me-1 w-50"> -->
+
+        <h1>Profile</h1>
+        <h5>Personal information</h5>
+        <div class="d-flex pt-2">
+            <table class="table table-bordered table-striped flex-grow-2 me-3">
+                <thead>
+                    <tr>
+                        <th scope="col">Attribute</th>
+                        <th scope="col">Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">name</th>
+                        <td>김남현 (Kim Nam Hyeon)</td>
+                    </tr>
+                    <tr>
+                        <!-- 소속 -->
+                        <th scope="row">affliliation</th>
+                        <td><a href="https://sme.skku.edu/iesys/index.do" target="_blank">SKKU SME</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">contact</th>
+                        <td>
+                            <ul class="list-group">
+                                <li class="list-group-item bg-light">Email : bene301@naver.com</li>
+                                <li class="list-group-item bg-light">Instagram : <a
+                                        href="https://www.instagram.com/n___hyeon/" target="_blank">n___hyeon</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">GitHub account</th>
+                        <td><a href="https://github.com/NamHyeon1" target="_blank">NamHyeon1</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- flex box 써서 이미지는 왼쪽에 취미나 약력들은 오른쪽에 위치하게-->
+            <img id="profile_img" src="photo.png" class="rounded-2 flex-grow-1">
+        </div>
+
+
+        <div id="hobby">
+            <p class="ms-1">취미</p>
+            <ul class="list-group">
+                <li class="list-group-item hobbies">축구 및 풋살</li>
+                <li class="list-group-item hobbies">게임하기</li>
+                <li class="list-group-item hobbies">알고리즘 문제 풀이</li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
